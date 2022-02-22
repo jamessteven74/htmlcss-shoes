@@ -38,8 +38,15 @@ yellow: #FFFF00; */
     right: 0;
     border-radius: 50%;
     margin: 20px 20px;
-    
+    text-align: center;
 }
+    
+span{
+    text-align: center;
+    vertical-align: -10px;
+    font-family: rubik;
+}
+    
 
 .circle2{
     width: 40px;
@@ -50,6 +57,7 @@ yellow: #FFFF00; */
     right: 100px;
     border-radius: 50%;
     margin: 20px 20px;
+    text-align: center;
 }
 
 
@@ -62,6 +70,7 @@ yellow: #FFFF00; */
     right: 200px;
     border-radius: 50%;
     margin: 20px 20px;
+    text-align: center;
 }
 
 .text{
@@ -110,3 +119,25 @@ h2{
 
 
 /* THIRD IMAGE */
+.my-img3
+{
+    background-image: url(../img/03.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-yellow);
+    position: relative;
+}
+.text3{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-family: rubik;
+    font-size: 30px;
+    padding-top: 700px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--color-green);
+}
+    
