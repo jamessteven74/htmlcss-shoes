@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color */
+/* red: #FF0000;
+green: #008000;
+yellow: #FFFF00; */
+
+:root{
+    --color-red: #FF0000;
+    --color-green: #008000;
+    --color-yellow: #FFFF00;
+}
+
+/* main */
+.my-img1{
+  background-image: url(img/01.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-red);
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+.circle1{
+    width: 40px;
+    height: 40px;
+    border: 50%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+span{
+    text-align: center;
+    vertical-align: -10px;
+    font-family: rubik;
+}
+
+
+.circle2{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+
+.circle3{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color: var(--color-yellow);
+    font-family: rubik;
+    font-size: 30px;
+    padding-top: 700px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* SECOND IMAGE */
+
+
+.my-img2{
+    background-image: url(img/02.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-green);
+    background-attachment: fixed;
+}
+
+.my-img2{
+    position: relative;
+}
+
+.text2{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-family: rubik;
+    font-size: 30px;
+    padding-top: 700px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--color-yellow);
+}
+h2{
+    padding-top: 150px;
+}
+
+
+/* THIRD IMAGE */
+.my-img3
+{
+    background-image: url(img/03.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-yellow);
+    position: relative;
+    background-attachment: fixed;
+}
+.text3{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-family: rubik;
+    font-size: 30px;
+    padding-top: 700px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--color-green);
+}
+
+
+a{
+  padding: 20px 16px;
+      /* margin-top: -3px; */
+      text-align: center;
+      vertical-align: -11px;
+  }
