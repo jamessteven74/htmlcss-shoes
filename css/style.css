@@ -15,7 +15,7 @@ yellow: #FFFF00; */
     --color-yellow: #FFFF00;
 }
 
-/* header */
+/* main */
 .my-img1{
     background-image: url(../img/01.png);
     height: 100vh;
@@ -71,7 +71,42 @@ yellow: #FFFF00; */
     color: var(--color-yellow);
     font-family: rubik;
     font-size: 30px;
-    padding-top: 600px;
+    padding-top: 700px;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+
+/* SECOND IMAGE */
+
+
+.my-img2{
+    background-image: url(../img/02.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--color-green);
+}
+    
+.my-img2{
+    position: relative;
+}
+
+.text2{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-family: rubik;
+    font-size: 30px;
+    padding-top: 700px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--color-yellow);
+}
+h2{
+    padding-top: 150px;
+}
+
+
+/* THIRD IMAGE */
