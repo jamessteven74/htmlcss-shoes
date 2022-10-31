@@ -151,3 +151,9 @@ a{
       text-align: center;
       vertical-align: -11px;
   }
+
+  a:link{
+    text-decoration: none;
+   
+  }
+
