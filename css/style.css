@@ -24,6 +24,7 @@ ul.menu >li {
     background-color: white;
     position: relative;
     margin:  2rem;
+    box-shadow: 8px 4px 10px 1px #0000008a;
 }
 
 ul.menu >li a{
