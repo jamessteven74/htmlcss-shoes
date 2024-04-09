@@ -1,19 +1,26 @@
+/*#region common*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* color */
-/* red: #FF0000;
-green: #008000;
-yellow: #FFFF00; */
 
 :root{
     --color-red: #FF0000;
     --color-green: #008000;
     --color-yellow: #FFFF00;
 }
+
+/*#endregion common*/
+
+
+/* color */
+/* red: #FF0000;
+green: #008000;
+yellow: #FFFF00; */
+
 
 /* main */
 .my-img1{
