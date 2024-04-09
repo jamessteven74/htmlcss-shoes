@@ -13,138 +13,133 @@
     --color-yellow: #FFFF00;
 }
 
+ul.menu >li {
+    display: inline-block;
+    font-size: 2rem ;
+    list-style-type: none;
+    width: 3rem;
+    height: 3rem;
+   /*  border: 1px solid black; */
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin:  2rem;
+}
+
+ul.menu >li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 /*#endregion common*/
 
 
-/* color */
-/* red: #FF0000;
-green: #008000;
-yellow: #FFFF00; */
 
 
-/* main */
-.my-img1{
-    background-image: url(../img/01.png);
+
+/*#region utilities*/
+.vh-100{
     height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+
+.bg_red{
     background-color: var(--color-red);
-    position: relative;
-    
-}
-    
-.circle1{
-    width: 40px;
-    height: 40px;
-    border: 50%;
-    background-color: white;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
-    margin: 20px 20px;
-    text-align: center;
-}
-    
-span{
-    text-align: center;
-    vertical-align: -10px;
-    font-family: rubik;
-}
-    
-
-.circle2{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    right: 100px;
-    border-radius: 50%;
-    margin: 20px 20px;
-    text-align: center;
 }
 
 
-.circle3{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    right: 200px;
-    border-radius: 50%;
-    margin: 20px 20px;
-    text-align: center;
-}
-
-.text{
-    position: absolute;
-    top:50%;
-    left:50%;
-    color: var(--color-yellow);
-    font-family: rubik;
-    font-size: 30px;
-    padding-top: 700px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-
-/* SECOND IMAGE */
-
-
-.my-img2{
-    background-image: url(../img/02.png);
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.bg_green{
     background-color: var(--color-green);
 }
-    
-.my-img2{
-    position: relative;
+
+.bg_yellow {
+    background-color: var(--color-yellow);
 }
 
-.text2{
-    position: absolute;
-    top:50%;
-    left:50%;
-    font-family: rubik;
-    font-size: 30px;
-    padding-top: 700px;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.color_yellow{
     color: var(--color-yellow);
 }
-h2{
-    padding-top: 150px;
-}
 
-
-/* THIRD IMAGE */
-.my-img3
-{
-    background-image: url(../img/03.png);
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--color-yellow);
-    position: relative;
-}
-.text3{
-    position: absolute;
-    top:50%;
-    left:50%;
-    font-family: rubik;
-    font-size: 30px;
-    padding-top: 700px;
-    transform: translate(-50%, -50%);
-    text-align: center;
+.color_green {
     color: var(--color-green);
 }
+
+.p_relative{
+    position: relative;
+}
+
+.p_absolute{
+    position: absolute;
+}
+/*#endregion utilities*/
+
+
+.image_text{
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.font_size {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+
+/*#region navbar*/
+
+nav.navbar {
+    width: 400px;
+    top: 0;
+    right: 0;
+}
+
+ul.menu{
+    position: fixed;
+    z-index: 1;
+}
+
+
+/*#endregion navbar*/
+
+
+
+.image_1 {
+    background-image: url(../img/01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
     
+}
+
+.image_2 {
+    background-image: url(../img/02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+     background-attachment: fixed;
+    
+}
+
+
+.image_3 {
+    background-image: url(../img/03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+     background-attachment: fixed;
+    
+}
+
+
